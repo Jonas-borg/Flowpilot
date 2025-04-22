@@ -7,9 +7,13 @@
   <style>
     body { margin: 0; font-family: sans-serif; background: #f9fafb; color: #1f2937; }
     header { background: #4f46e5; color: white; padding: 20px; text-align: center; }
-    .content { max-width: 800px; margin: 40px auto; padding: 0 20px; text-align: center; }
-    .content img { max-width: 100%; border-radius: 20px; margin-top: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
-    .btn { display: inline-block; margin-top: 30px; padding: 10px 20px; background: #4f46e5; color: white; text-decoration: none; border-radius: 9999px; font-weight: bold; }
+    .content { max-width: 800px; margin: 40px auto; padding: 0 20px; }
+    .content h2 { text-align: center; margin-bottom: 20px; font-size: 2rem; }
+    .content p { line-height: 1.6; margin-bottom: 20px; }
+    .content img { max-width: 100%; border-radius: 20px; margin: 20px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+    .features { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 40px; }
+    .feature { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); text-align: center; }
+    .btn { display: block; width: fit-content; margin: 40px auto 0; padding: 10px 20px; background: #4f46e5; color: white; text-decoration: none; border-radius: 9999px; font-weight: bold; }
   </style>
 </head>
 <body>
@@ -17,9 +21,29 @@
     <h1>AI-mailassistent</h1>
   </header>
   <div class="content">
-    <h2>Få styr på dine e-mails med AI</h2>
-    <p>Med FlowPilots AI-assistent får du hjælp til at holde styr på din indbakke, få svarforslag, og påmindelser, så du aldrig mister overblikket over dine kundedialoger.</p>
-    <img src="https://source.unsplash.com/800x400/?ai,communication" alt="AI-mail eksempel">
+    <h2>Slip for e-mail stress med vores AI-assistent</h2>
+    <p>Træt af at drukne i e-mails? FlowPilots AI-assistent hjælper dig med at holde styr på din indbakke, foreslå svar, følge op på vigtige beskeder og sikre, at intet glider mellem fingrene. Brug mindre tid på mails og mere tid på din forretning.</p>
+    <img src="https://source.unsplash.com/800x400/?email,ai" alt="AI-mailassistent eksempel">
+
+    <h2>Sådan fungerer det:</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>Intelligente svarforslag</h3>
+        <p>Få forslag til hurtige og professionelle svar baseret på dine samtaler.</p>
+      </div>
+      <div class="feature">
+        <h3>Automatiske påmindelser</h3>
+        <p>AI’en minder dig om opfølgninger, så du aldrig glemmer at vende tilbage til en vigtig kunde.</p>
+      </div>
+      <div class="feature">
+        <h3>Personlig tilpasning</h3>
+        <p>Assistenten lærer af din tone og dine præferencer, så svarene altid passer til dig.</p>
+      </div>
+      <div class="feature">
+        <h3>Spam- og prioriteringsfilter</h3>
+        <p>Sortér vigtige e-mails fra støj, og fokuser kun på det, der betyder noget.</p>
+      </div>
+    </div>
     <a href="index.html" class="btn">Tilbage til forsiden</a>
   </div>
 </body>
